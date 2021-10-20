@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+     font-family: 'Andada Pro', serif;
+     font-style: normal;
+     background: #C9B7AD;
+    }
+    header {
+      text-align: center;
+      background-size: cover;
+      color: black;
+    }
+    a {
+      color: black;
+    }
+    .title {
+      font-size: 30px;
+      text-align: center;
+    }
+    .blog {
+      font-size: 20px;
+      text-align: center; 
+    }
+    p {
+      text-align: justify;
+      padding: 10px;
+      bottom: 0;
+      margin: 0;
+    }
+    
+    .section {
+      padding: 10px;
+      background-size: cover;
+      border-radius: 12px;
+    }
+    .LemonBalm {
+     background: url(https://extension.usu.edu/yardandgarden/images/lemon-balm-cropped.jpg);
+     background-size: cover;
+     border-radius: 12px;
+    }
+    .LemonBalm p { 
+       background: #A8BA9A; 
+    }
+    .Lavender {
+     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRIXfHy04F8RIUPowtueIpu-wOTSntebat8Q&usqp=CAU); 
+     background-size: cover;
+     border-radius: 12px;
+    }
+    .Lavender p {
+      background: #6C698D;
+     }
+    .Calendula {
+      background: url(https://cdn.shopify.com/s/files/1/1294/7363/files/skin-benefits-calendula-flower.jpg?v=1621918930); 
+      background-size: cover;
+      border-radius: 12px;
+    }
+    .Calendula p {
+      background: #CB793A;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: #CF9893;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      color: white;
+    }
+    
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdPOHEsazGKItHatX9_hGCt5yuv1Y8YHAuaQ&usqp=CAU">
+    <div class="title"><h1>Faith's Herbal Blog</h1></div>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Recipes</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+  <div class="blog"><h1>Plants of the Month</h1></div>
+  <article>
+    <div class="section LemonBalm"><h2>Lemon Balm</h2>
+    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
+    <button>Like</button>
+  </article></div>
+  <article>
+    <div class="section Calendula"><h2>Calendula</h2>
+    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
+    <button>Like</button>
+  </article></div>
+  <article>
+    <div class="section Lavender"><h2>Lavender</h2>
+    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+    <button>Like</button>
+  </article></div>
+  <script>
+    $("button").on("click", function() {
+      alert("Thanks for like!");
+    });
+  </script>
+</body>
